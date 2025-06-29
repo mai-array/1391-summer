@@ -1,8 +1,12 @@
 site_name: 1391 Self Training
 theme:
   name: material
+  favicon: 'imgs/favicon.png'
+  logo: 'imgs/logo.png'
   palette:
     primary: red
+  
+
 nav:
   - Home: index.md
   - General Info: general.md
@@ -11,6 +15,7 @@ nav:
   - Electrical: electrical.md
   - Strategy: strategy.md
   - About 1391: team.md
+
 
 
 
