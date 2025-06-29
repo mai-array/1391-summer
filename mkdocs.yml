@@ -1,3 +1,18 @@
 site_name: 1391 Self Training
 theme:
-  name: mkdocs
+  name: material
+  palette:
+    primary: red
+nav:
+  - Home: index.md
+  - General Info: general.md
+  - Design + Build: design.md
+  - Programming: programming.md
+  - Electrical: electrical.md
+  - Strategy: strategy.md
+  - About 1391: team.md
+
+
+
+extra_css:
+  - extra.css

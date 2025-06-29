@@ -1,0 +1,34 @@
+:root {
+  --mmred:  #a8212a;
+  --red-hover: #880000;
+  --mmgold: #d6ad09;
+  --white-text: #ffffff;
+}
+
+.md-typeset h1 {
+  color: black !important;
+  font-weight: 700 !important; /* bold */
+}
+.md-nav__link--active {
+  font-weight: bold;
+}
+
+.home-button {
+  background-color: var(--mmred) !important;
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;              /* Smaller height and width */
+  font-size: 1rem;                 /* Slightly smaller text */
+  border-radius: 999px;
+  margin: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: fit-content;
+  line-height: 1.1;
+  vertical-align: top;
+}
+
+.home-button:hover {
+  background-color: var(--red-hover) !important;       /* Darker red on hover */              /* Golden yellow text on hover */
+}
