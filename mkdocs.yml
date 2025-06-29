@@ -23,8 +23,18 @@ nav:
     - Reading: programming/reading.md
     - Videos: programming/videos.md
     - Mini Projects: programming/mini.md
-  - Electrical: electrical.md
-  - Strategy: strategy.md
+  - Electrical: 
+    - Overview: electrical/index.md
+    - Components: electrical/components.md
+    - Reading: electrical/reading.md
+    - Videos: electrical/videos.md
+    - Mini Projects: electrical/mini.md
+  - Strategy: 
+    - Overview: strategy/index.md
+    - Scouting: strategy/scouting.md
+    - Reading: strategy/reading.md
+    - Videos: strategy/videos.md
+    - Mini Projects: strategy/mini.md
   - About 1391: team.md
 
 
