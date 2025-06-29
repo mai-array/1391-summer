@@ -17,7 +17,12 @@ nav:
     - Reading: design/reading.md
     - Videos: design/videos.md
     - Mini Projects: design/mini.md
-  - Programming: programming.md
+  - Programming:
+    - Overview: programming/index.md
+    - Java Learning: programming/java.md
+    - Reading: programming/reading.md
+    - Videos: programming/videos.md
+    - Mini Projects: programming/mini.md
   - Electrical: electrical.md
   - Strategy: strategy.md
   - About 1391: team.md
