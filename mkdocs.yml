@@ -5,12 +5,18 @@ theme:
   logo: 'imgs/logo.png'
   palette:
     primary: red
+
   
 
 nav:
   - Home: index.md
-  - General Info: general.md
-  - Design + Build: design.md
+  - General Information: general.md
+  - Design + Build:
+    - Overview: design/index.md
+    - CAD Learning: design/cad.md
+    - Reading: design/reading.md
+    - Videos: design/videos.md
+    - Mini Projects: design/mini.md
   - Programming: programming.md
   - Electrical: electrical.md
   - Strategy: strategy.md
@@ -21,3 +27,5 @@ nav:
 
 extra_css:
   - extra.css
+
+

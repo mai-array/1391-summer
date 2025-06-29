@@ -1,6 +1,8 @@
-<h1 style="text-align: center; font-size: 2rem;">
-  What would you like to learn today?
-</h1>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap;">
+  <h1 style="margin: 0; font-size: 2rem;">Design + Build</h1>
+  <a href="/" class="home-button">Home</a>
+</div>
+
 
 <style>
 .button-grid {
@@ -32,11 +34,10 @@
 </style>
 
 <div class="button-grid">
-  <a href="general/"">General Info</a>
-  <a href="design/">Design + Build</a>
-  <a href="programming/">Programming</a>
-  <a href = "electrical/"> Electrical </a>
-  <a href="strategy/">Strategy</a>  
-  <a href="team/"> About 1391 </a>
+  <a href="cad"">CAD Learning</a>
+  <a href="reading">Reading</a>
+  <a href="videos">Videos</a>
+  <a href="mini">Mini Projects</a>
+  
 
 </div>

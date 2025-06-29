@@ -7,7 +7,7 @@
 
 .md-typeset h1 {
   color: black !important;
-  font-weight: 700 !important; /* bold */
+  font-weight: 700 !important; /*bold everything*/
 }
 .md-nav__link--active {
   font-weight: bold;
@@ -18,8 +18,8 @@
   color: white !important;
   font-weight: bold;
   text-decoration: none;
-  padding: 0.5rem 1.5rem;              /* Smaller height and width */
-  font-size: 1rem;                 /* Slightly smaller text */
+  padding: 0.5rem 2rem;      
+  font-size: 1rem;                 
   border-radius: 999px;
   margin: 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -32,3 +32,25 @@
 .home-button:hover {
   background-color: var(--red-hover) !important;       /* Darker red on hover */              /* Golden yellow text on hover */
 }
+
+
+/* Make sidebar nav items bigger */
+.md-nav__link {
+  font-size: 1rem;  
+}
+
+.md-nav__item .md-nav__link {
+  font-size: 1rem;
+}
+
+/*making the header bigger as well*/
+.md-header__title .md-header__topic {
+  color: white;
+  font-size: 1.3rem; 
+  font-weight: bold;
+}
+/* removing the text above the sidebar*/
+.md-nav__title {
+  display: none;
+}
+
