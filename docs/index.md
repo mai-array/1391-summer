@@ -22,6 +22,7 @@
   border-radius: 12px;
   font-size: 1.3rem;
   transition: background-color 0.3s, color 0.3s;
+  margin-left: 0rem;
 }
 
 .button-grid a:hover {
