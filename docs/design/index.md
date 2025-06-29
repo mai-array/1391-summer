@@ -33,11 +33,11 @@
 
 </style>
 
-<div class="button-grid" style="margin-top: 5rem;">
+<!-- Button Grid -->
+<div class="button-grid" style="margin-top: 3rem; margin-bottom: 3rem">
   <a href="cad"">CAD Learning</a>
   <a href="reading">Reading</a>
   <a href="videos">Videos</a>
   <a href="mini">Mini Projects</a>
-  
-
 </div>
+
