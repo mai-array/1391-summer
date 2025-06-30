@@ -5,6 +5,10 @@
   --white-text: #ffffff;
 }
 
+body {
+  font-family: 'Inter', sans-serif; 
+}
+
 .md-typeset h1 {
   color: black !important;
   font-weight: 700 !important; /*bold everything*/
@@ -30,7 +34,7 @@
 }
 
 .home-button:hover {
-  background-color: var(--red-hover) !important;       /* Darker red on hover */              /* Golden yellow text on hover */
+  background-color: var(--red-hover) !important;       
 }
 
 
@@ -54,6 +58,7 @@
   display: none;
 }
 
+/*home icon*/
 
 .home-icon svg {
   transition: transform 0.2s ease, fill 0.2s ease;
@@ -65,7 +70,7 @@
   fill: var(--mmgold);
 }
 
-
+/*subteam dropdowns*/
 
 .subteam-details {
   margin-top: 2rem;
@@ -115,3 +120,111 @@
   font-size: 1.1rem;
 }
 
+
+/* card stack css*/
+
+.card-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.simple-card {
+  background-color: rgb(252, 233, 233);
+  border: 2px solid #cd9191; 
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+}
+
+.simple-card:hover {
+  box-shadow: 0 8px 20px rgba(204, 31, 31, 0.3);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #cf7878;  /* line to seperate title from rest*/
+  padding-bottom: 0.5rem;             
+  margin-bottom: 1rem;    
+}
+
+.card-title {
+  font-weight: 600 !important;
+  font-size: 1.25rem !important;
+  margin: 0;          /* remove default margins */
+  color: #000000;
+  margin-bottom: 0rem !important;
+  margin-top: 0rem !important;
+}
+
+.card-description {
+  font-size: 1.05rem;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem;
+  color: #000000;
+  line-height: 1.5;
+}
+
+.card-button {
+  background-color: var(--mmred); /* red button */
+  color: white !important;
+  text-decoration: none;
+  padding: 0.2rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.card-button:hover {
+  background-color: #781111;
+}
+
+.task-dropdown summary {
+  font-size: 1.05rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: #000000;
+  padding: 0.4rem 0;
+  background-color: #e5eff9;
+}
+
+.task-dropdown[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+.task-list {
+  padding-left: 1.2rem;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: black;
+  margin-top: 0;
+}
+
+.task-list li {
+  list-style-type: "📌 ";
+  margin-bottom: 0.4rem;
+}
+
+/* cleaning up header*/
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  border-bottom: 3px solid black;
+  padding-bottom: 0.5rem;
+}
+.page-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
