@@ -191,8 +191,8 @@ body {
 .task-dropdown summary {
   font-size: 1.05rem;
   cursor: pointer;
-  font-weight: 500;
-  color: #000000;
+  font-weight: 500 !important;
+  color: #000000 !important;
   padding: 0.4rem 0;
   background-color: #e5eff9;
 }
