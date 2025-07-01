@@ -3,7 +3,6 @@
   <a href="/design/" class="home-button">Back</a>
 </div>
 
-
 <!-- Card 1-->
 <div class="card-stack">
   <div class="simple-card">   
@@ -24,83 +23,28 @@
   </p>
   <!-- More Information -->
 <button class="info-toggle">Tips & Context</button>
-<div class="info-box">
+<div class="info-box hidden">
   <p><span class="info-label">Note:</span> This resource was originally made for another team, but it's still useful.</p>
 </div>
 
-   <!-- Tasks Dropdown-->
-</details>
-    </details>
-    <details class="task-dropdown">
-      <summary>Show Tasks</summary>
-      <ul class="task-list">
-        <li>Go through this playlist and CAD alongside the </li>
-        <li>Task 2</li>
-        <li>Task 3</li>
-      </ul>
-    </details>
-  </div>
-</div>
-
-<!-- Card 2-->
-<div class="card-stack">
-  <div class="simple-card" style="margin-top:1rem;">   
-  <!-- Title and button side-by-side -->
-  <div class="card-header">
-      <h3 class="card-title">Title Goes Here</h3>
-      <a 
-        href="https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID" 
-        target="_blank" 
-        class="card-button"
-      >
-        Visit Site
-      </a>
+<!-- Tasks Dropdown C1-->
+  </details>
+     </details>
+      <details class="task-dropdown">
+       <summary>Show Tasks</summary>
+       <ul class="task-list">
+          <li><label><input type="checkbox"> Task 1 </li>
+          <li><label><input type="checkbox">Task 2</li>
+         <li><label><input type="checkbox">Task 3</li>
+       </ul>
+     </details>
     </div>
-  <!-- Description text -->
-  <p class="card-description">
-      description goes here
-  </p>
-  <!-- Dropdown task list -->
-  <details class="task-dropdown">
-      <summary>Show Tasks</summary>
-      <ul class="task-list">
-        <li>Task 1</li>
-        <li>Task 2</li>
-        <li>Task 3</li>
-      </ul>
-    </details>
   </div>
-</div>
 
-<!-- Card 3-->
-<div class="card-stack">
-  <div class="simple-card" style="margin-top:1rem;">   
-  <!-- Title and button side-by-side -->
-  <div class="card-header">
-      <h3 class="card-title">Title Goes Here</h3>
-      <a 
-        href="https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID" 
-        target="_blank" 
-        class="card-button"
-      >
-        Visit Site
-      </a>
-    </div>
-  <!-- Description text -->
-  <p class="card-description">
-      description goes here
-  </p>
-  <!-- Dropdown task list -->
-  <details class="task-dropdown">
-      <summary>Show Tasks</summary>
-      <ul class="task-list">
-        <li>Task 1</li>
-        <li>Task 2</li>
-        <li>Task 3</li>
-      </ul>
-    </details>
-  </div>
-</div>
+
+
+
+
 
 <script>
   const toggleBtn = document.querySelector(".info-toggle");
@@ -111,5 +55,22 @@
     toggleBtn.textContent = infoBox.classList.contains("hidden")
       ? "Tips & Context"
       : "Hide Information";
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const checkboxes = document.querySelectorAll(".task-list input[type='checkbox']");
+
+    // Restore saved checkbox states
+    checkboxes.forEach((checkbox, index) => {
+      const savedState = localStorage.getItem("taskCheckbox_" + index);
+      if (savedState === "true") checkbox.checked = true;
+
+      // Save new state on change
+      checkbox.addEventListener("change", () => {
+        localStorage.setItem("taskCheckbox_" + index, checkbox.checked);
+      });
+    });
   });
 </script>

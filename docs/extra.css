@@ -132,7 +132,7 @@ body {
 }
 
 .simple-card {
-  background-color: rgb(251, 239, 239);
+  background-color: rgb(251, 244, 244);
   border: 2px solid #cd9191; 
   border-radius: 10px;
   padding: 0.75rem 1rem;
@@ -141,7 +141,7 @@ body {
 }
 
 .simple-card:hover {
-  box-shadow: 0 8px 20px rgba(204, 31, 31, 0.3);
+  box-shadow: 0 8px 20px rgba(204, 31, 31, 0.35);
 }
 
 .card-header {
@@ -181,11 +181,11 @@ body {
   font-weight: 600;
   font-size: 1rem;
   white-space: nowrap;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.4s ease;
 }
 
 .card-button:hover {
-  background-color: #781111;
+  background-color: #5d0e0e;
 }
 /*dropdown for the tasks*/
 
@@ -205,17 +205,23 @@ body {
 .task-list {
   padding-left: 1.2rem;
   line-height: 1.7;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: black;
   margin-top: 0;
 }
 
 .task-list li {
-  list-style-type: "📌 ";
+  list-style: none;
   margin-bottom: 0.4rem;
 }
 
-/*dropdown for more*/
+.task-list input[type="checkbox"] {
+  margin-right: 0.5rem;
+  transform: scale(1.5); 
+  cursor:pointer;
+}
+
+/*Button for more info*/
 
 .info-toggle {
   background-color: #cf7878;
@@ -234,7 +240,7 @@ body {
 }
 
 .info-box {
-  background-color: #fdf6f6;
+  background-color: #fdfdfd;
   border: 2px dashed #f08c8c;  
   padding: 0.25rem 0.5rem;      
   border-radius: 6px;
@@ -243,7 +249,7 @@ body {
   line-height: 1.4;            
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.075);
 }
 
 /* This hides the info-box initially */
