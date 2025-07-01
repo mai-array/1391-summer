@@ -33,7 +33,7 @@
       <details class="task-dropdown">
        <summary>Show Tasks</summary>
        <ul class="task-list">
-          <li><label><input type="checkbox"> Task 1 </li>
+          <li><label><input type="checkbox">Task 1 </li>
           <li><label><input type="checkbox">Task 2</li>
          <li><label><input type="checkbox">Task 3</li>
        </ul>
