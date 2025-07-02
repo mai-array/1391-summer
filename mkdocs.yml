@@ -41,6 +41,7 @@ nav:
 
 
 extra_css:
-  - extra.css
+  - assets/main.css
 
-
+extra_javascript:
+  - assets/main.js
