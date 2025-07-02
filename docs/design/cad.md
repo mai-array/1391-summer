@@ -10,7 +10,7 @@
   <div class="card-header">
       <h3 class="card-title">RoboChargers CAD Class</h3>
       <a 
-        href="https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID" 
+        href="https://www.youtube.com/playlist?list=PLZYDKbHeeDWdqbJcW21MMgE2jQDYppz_6" 
         target="_blank" 
         class="card-button"
       >
@@ -24,22 +24,42 @@
   <!-- More Information -->
 <button class="info-toggle">Tips & Context</button>
 <div class="info-box hidden">
-  <p><span class="info-label">Note:</span> This resource was originally made for another team, but it's still useful.</p>
+  <p><span class="info-label">Note:</span>Please keep in mind that this resource was originally designed for members of FRC 3005. Not every design process taught will apply to our team structure, but the CAD concepts will be the same.</p>
 </div>
 
 <!-- Tasks Dropdown C1-->
-  </details>
-     </details>
-      <details class="task-dropdown">
-       <summary>Show Tasks</summary>
-       <ul class="task-list">
-          <li><label><input type="checkbox">Task 1 </li>
-          <li><label><input type="checkbox">Task 2</li>
-         <li><label><input type="checkbox">Task 3</li>
-       </ul>
-     </details>
-    </div>
-  </div>
+<details class="task-dropdown">
+  <summary>Show Tasks</summary>
+  <ul class="task-list">
+    <li>
+      <label>
+        <input type="checkbox">
+        Main Task 1
+      </label>
+      <ul class="subtask-list">
+        <li>
+          <label>
+            <input type="checkbox">
+            Subtask A
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox">
+            Subtask B
+          </label>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Main Task 2
+      </label>
+    </li>
+  </ul>
+</details>
+
 
 
 

@@ -221,6 +221,24 @@ body {
   cursor:pointer;
 }
 
+/*Subtask CSS*/
+
+.subtask-list {
+  padding-left: 1.5rem;
+  margin-top: 0.2rem;
+  list-style: none;
+}
+
+.subtask-list li {
+  margin-bottom: 0.3rem;
+}
+
+.subtask-list input[type="checkbox"] {
+  margin-right: 0.5rem;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 /*Button for more info*/
 
 .info-toggle {
