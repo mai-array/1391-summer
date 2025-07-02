@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (infoToggleBtn && infoBox) {
     infoToggleBtn.textContent = infoBox.classList.contains("hidden")
-      ? "Tips & Context"
-      : "Hide Information";
+      ? "Show Tips"
+      : "Hide Tips";
 
     infoToggleBtn.addEventListener("click", () => {
       infoBox.classList.toggle("hidden");
       infoToggleBtn.textContent = infoBox.classList.contains("hidden")
-        ? "Tips & Context"
-        : "Hide Information";
+        ? "Show Tips"
+        : "Hide Tips";
     });
   }
 

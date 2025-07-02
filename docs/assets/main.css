@@ -141,7 +141,7 @@ body {
 }
 
 .simple-card:hover {
-  box-shadow: 0 8px 20px rgba(204, 31, 31, 0.35);
+  box-shadow: 0 8px 20px rgba(204, 31, 31, 0.25);
 }
 
 .card-header {
