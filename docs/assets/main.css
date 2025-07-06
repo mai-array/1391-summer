@@ -123,21 +123,16 @@ body {
 
 /* card stack css*/
 
-.card-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  max-width: 700px;
-  margin: 2rem auto;
-}
+
 
 .simple-card {
-  background-color: rgb(251, 244, 244);
+  background-color: rgb(255, 249, 249);
   border: 2px solid #cd9191; 
   border-radius: 10px;
   padding: 0.75rem 1rem;
   box-sizing: border-box;
   transition: box-shadow 0.3s ease;
+  margin-bottom: 1.5rem !important;
 }
 
 .simple-card:hover {
@@ -187,93 +182,6 @@ body {
 .card-button:hover {
   background-color: #5d0e0e;
 }
-/*dropdown for the tasks*/
-
-.task-toggle {
-  background-color: rgb(143, 143, 143);
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1.2rem;
-  cursor: pointer;
-  margin-bottom: 0.4rem;
-  transition: background-color 0.2s ease;
-}
-
-.task-toggle:hover {
-  background-color: rgb(96, 96, 96);
-}
-
-.task-box {
-  background-color: #f2efef;
-  border: 2px dashed #a4a4a4;
-  padding: 0.1rem 0.5rem;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  margin-bottom: 0.5rem;
-  color:black;
-  font-size: 0.9rem;
-}
-/*Button for more info*/
-
-.info-toggle {
-  background-color: #cf7878;
-  color: white;
-  font-weight: 600;
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1.2rem;
-  cursor: pointer;
-  margin-bottom: 0.4rem;
-  transition: background-color 0.2s ease;
-}
-
-.info-toggle:hover {
-  background-color: #a85757;
-}
-
-.info-box {
-  background-color: #fdfdfd;
-  border: 2px dashed #f08c8c;  
-  padding: 0.25rem 0.5rem;      
-  border-radius: 6px;
-  font-size: 0.85rem;          
-  color: #000000;              
-  line-height: 1.4;            
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.075);
-}
-
-input[type="checkbox"] {
-  transform: scale(1.4);
-  accent-color: #3bb273;
-  margin-right: 0.5rem;
-  cursor: pointer;
-}
-
-/*keeping the tasks button and info button together*/
-.button-row {
-  display: flex;
-  gap: 0.5rem;       
-  margin-bottom: 0.5rem;
-  flex-wrap: wrap;    
-}
-
-/* This hides the info-box initially */
-.hidden {
-  display: none;
-}
-
-.info-label {
-  display: inline;           
-  font-weight: 600;
-  color: #aa3e3e;
-  margin-right: 0.4rem;       
-}
-
-
 
 
 /* cleaning up header*/
@@ -291,5 +199,22 @@ input[type="checkbox"] {
   font-size: 2rem;
 }
 
-/*info sections for the start of each card page*/
+/*the top of each lesson page*/
+.lesson-title {
+  font-size: 1.5rem !important;
+  margin-bottom: 0.75rem !important;
+}
 
+.lesson-subtitle {
+  font-size: 0.95rem;
+  margin-top: 0;
+}
+
+.lesson-back-inline {
+  color: #000000;
+  text-decoration: none;
+}
+
+.lesson-back-inline:hover {
+  text-decoration: underline;
+}

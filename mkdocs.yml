@@ -13,7 +13,7 @@ nav:
   - General Information: general.md
   - Design + Build:
     - Overview: design/index.md
-    - CAD Learning: design/cad.md
+    - CAD Learning: design/cad/index.md
     - Reading: design/reading.md
     - Videos: design/videos.md
     - Mini Projects: design/mini.md
