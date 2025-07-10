@@ -14,7 +14,7 @@ nav:
   - Design + Build:
     - Overview: design/index.md
     - CAD Learning: design/cad/index.md
-    - Reading: design/reading.md
+    - Reading: design/reading/index.md
     - Videos: design/videos.md
     - Mini Projects: design/mini.md
   - Programming:

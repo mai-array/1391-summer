@@ -14,7 +14,7 @@
     </a>
   </div>
   <p class="card-description">
-   A quick article along with a few resources to understand what CAD is, and how it is useful for FRC, and generally the engineering world.
+   A quick article along with a few resources to understand what CAD is, and how it is useful for FRC, and generally the engineering world. Good starting point if you want some context, and need to create an Onshape account.
   </p>
 </div>
 
