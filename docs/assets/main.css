@@ -262,3 +262,24 @@ body {
   background-color: rgba(81, 148, 0, 0.2);
   color:#2e9a00;
 }
+
+
+/* what is CAD article*/
+
+.lesson-article {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #111;
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.lesson-article h2,
+.lesson-article h3 {
+  font-size: 1.5rem;
+  margin-top: 1.75rem;
+}
+
+.lesson-article p {
+  margin-bottom: 1.1rem;
+}

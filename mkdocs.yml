@@ -1,12 +1,12 @@
 site_name: 1391 Self Training for FRC
 theme:
   name: material
-  favicon: 'imgs/favicon.png'
-  logo: 'imgs/logo.png'
+  favicon: 'assets/imgs/favicon.png'
+  logo: 'assets/imgs/logo.png'
   palette:
     primary: red
 
-  
+docs_dir: docs
 
 nav:
   - Home: index.md
