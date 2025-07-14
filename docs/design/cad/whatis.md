@@ -20,7 +20,7 @@ title: What is CAD?
 
   <h2><strong>Commonly Used CAD Software </strong></h2>
 
-<p>There are several CAD platforms that FRC teams commonly use. Each has its strengths depending on the team’s needs, school devices, or personal preference. Our preference at 1391 is Onshape due to the existing FRC part libraries, and collaboration features. Here are the most popular CAD softwares:</p>
+<p>There are several CAD platforms that FRC teams commonly use. Each has its strengths depending on the team’s needs, school devices, or personal preference. Our preference at 1391 is Onshape due to the existing FRC part libraries, and collaboration features. Here are some popular CAD softwares:</p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1rem;">
 
@@ -36,7 +36,7 @@ title: What is CAD?
       <li>Beginner friendly interface</li>
       <li>Free for FRC teams & students</li>
 
-    </ul>
+   </ul>
   </div>
 
   <!-- Fusion 360 -->
@@ -99,28 +99,29 @@ title: What is CAD?
   </li>
   <li>
     Once registered, you’ll have access to the full Onshape education platform and can start designing!<br>
-    <img src="/assets/imgs/onshape-dashboard.png" alt="Onshape Dashboard" style="max-width: 100%; border-radius: 8px; margin-top: 0.5rem;">
   </li>
+    <img src="/assets/imgs/onshape-dashboard.png" alt="Onshape Dashboard" style="max-width: 100%; border-radius: 8px; margin-top: 0.5rem;">
 </ol>
 
 
 <div style="margin-top: 5rem;"></div>
 
 
-<h2> So I have an Onshape Account... What now? </h2>
+<h2> <strong> So I have an Onshape Account... What now? </strong> </h2>
 
   <p>CADding is just like riding a bike, or driving a car. It may seem intimidating at first, but <strong>with practice, it becomes easier.</strong> It's a crucial skill to learn for both FRC and Engineering. To help you in this journey, there are a variety of learning courses that you can find on this website. <strong>Happy making!</strong></p>
 
+<div style="margin-top: 2em;"></div>
+
+<img src="/assets/imgs/1678-onshape.png" alt="Onshape Dashboard With 1678 Robot on Side" style="max-width: 100%; border-radius: 8px; margin-top: 0.5rem;">
+
+
 <div style="margin-top: 5rem;"></div>
 
-some image will go here :)
+
+<button id="finish-lesson" class="completed-lesson-button">
+  Finish Lesson
+</button>
 
 
-
-
-
-
-
-
-
-
+<div style="margin-top: 2rem;"></div>

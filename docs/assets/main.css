@@ -176,10 +176,11 @@ body {
   font-weight: 600;
   font-size: 1rem;
   white-space: nowrap;
-  transition: background-color 0.4s ease;
+
 }
 
 .card-button:hover {
+  transition: background-color 0.4s ease;
   background-color: #5d0e0e;
 }
 
@@ -206,13 +207,15 @@ body {
 }
 
 .lesson-subtitle {
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-top: 0;
 }
 
 .lesson-back-inline {
   color: #000000;
   text-decoration: none;
+  font-weight: 500;
+
 }
 
 .lesson-back-inline:hover {
@@ -263,6 +266,65 @@ body {
   color:#2e9a00;
 }
 
+.simple-card.completed .card-level-badge.starting {
+  background-color: #c7e4ce; /* soft pale green */
+  color: #2a5d2a;            /* darker green text */
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  user-select: none;
+  display: inline-block;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px; /* pill shape */
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+}
+
+.simple-card.completed .card-level-badge.beginner {
+  background-color: #c7e4ce; /* soft pale green */
+  color: #2a5d2a;            /* darker green text */
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  user-select: none;
+  display: inline-block;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px; /* pill shape */
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+}
+
+.simple-card.completed .card-level-badge.intermediate {
+  background-color: #c7e4ce; /* soft pale green */
+  color: #2a5d2a;            /* darker green text */
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  user-select: none;
+  display: inline-block;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px; /* pill shape */
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+}
+
+.simple-card.completed .card-level-badge.advanced {
+  background-color: #c7e4ce; /* soft pale green */
+  color: #2a5d2a;            /* darker green text */
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  user-select: none;
+  display: inline-block;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px; /* pill shape */
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+}
 
 /* what is CAD article*/
 
@@ -283,3 +345,51 @@ body {
 .lesson-article p {
   margin-bottom: 1.1rem;
 }
+
+
+/*when a lesson is completed, the card will turn green*/
+
+.simple-card.completed {
+  background-color: #f0fff4; /* soft green background */
+  border: 2px solid #8bcf9b;
+}
+
+.simple-card.completed:hover {
+  box-shadow: 0 8px 20px rgba(0, 128, 0, 0.25); /* green glow */
+}
+
+.simple-card.completed .card-header {
+  border-bottom: 2px solid #8bcf9b; 
+}
+
+.green-button {
+  background-color: #4caf50 !important;
+  color: white !important;
+  cursor:pointer;
+  
+}
+
+.green-button:hover {
+  background-color: #3e8e41 !important;
+}
+
+.completed-lesson-button {
+  background-color: #4caf50 !important;
+  color: white !important;
+  cursor:pointer;
+  display:block;
+  margin: 1.5rem auto;
+  text-decoration: none;
+  padding: 0.75rem 15rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  transition: background-color 0.4s ease;
+}
+
+.completed-lesson-button:hover {
+  transition: background-color 0.5s ease;
+  background-color: #317233 !important;
+}
+
