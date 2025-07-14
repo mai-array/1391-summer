@@ -380,7 +380,7 @@ body {
   display:block;
   margin: 1.5rem auto;
   text-decoration: none;
-  padding: 0.75rem 15rem;
+  padding: 0.75rem 13rem;
   border-radius: 6px;
   font-weight: 600;
   font-size: 1.25rem;
@@ -393,3 +393,32 @@ body {
   background-color: #317233 !important;
 }
 
+.article-button {
+  background-color: rgb(206, 67, 67);
+  color: white !important;
+  text-decoration: none;
+  padding: 0.3rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  white-space: nowrap;
+  cursor:pointer;
+
+}
+
+.article-button:hover {
+  transition: background-color 0.4s ease;
+  background-color: #9b1b1b;
+}
+
+
+.header-w-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.header-w-button h2 {
+  margin: 0;
+}
