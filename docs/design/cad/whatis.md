@@ -101,7 +101,7 @@ title: What is CAD?
   <li>
     Once registered, you’ll have access to the full Onshape education platform and can start designing!<br>
   </li>
-    <img src="/assets/imgs/onshape-dashboard.png" alt="Onshape Dashboard" style="max-width: 100%; border-radius: 8px; margin-top: 0.5rem;">
+    <img src="/assets/imgs/onshape_dashboard.png" alt="Onshape Dashboard" style="max-width: 100%; border-radius: 8px; margin-top: 0.5rem;">
 </ol>
 
 

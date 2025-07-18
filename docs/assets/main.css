@@ -394,7 +394,7 @@ body {
 }
 
 .article-button {
-  background-color: rgb(206, 67, 67);
+  background-color: rgb(54, 147, 8);
   color: white !important;
   text-decoration: none;
   padding: 0.3rem 1.2rem;
@@ -403,14 +403,19 @@ body {
   font-size: 1rem;
   white-space: nowrap;
   cursor:pointer;
+  box-shadow: 0 8px 20px rgba(0, 112, 9, 0.3)
 
 }
 
 .article-button:hover {
   transition: background-color 0.4s ease;
-  background-color: #9b1b1b;
+  background-color: #1c5509;
 }
 
+.article-button:active {
+  box-shadow: 0 0px 0px rgba(0, 112, 9, 0.6)
+
+}
 
 .header-w-button {
   display: flex;
