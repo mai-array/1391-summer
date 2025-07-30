@@ -394,7 +394,7 @@ body {
 }
 
 .article-button {
-  background-color: rgb(54, 147, 8);
+  background-color: rgb(177, 1, 1);
   color: white !important;
   text-decoration: none;
   padding: 0.3rem 1.2rem;
@@ -403,19 +403,14 @@ body {
   font-size: 1rem;
   white-space: nowrap;
   cursor:pointer;
-  box-shadow: 0 8px 20px rgba(0, 112, 9, 0.3)
-
+  box-shadow: 0 8px 20px rgba(112, 0, 0, 0.1)
 }
 
 .article-button:hover {
   transition: background-color 0.4s ease;
-  background-color: #1c5509;
+  background-color: rgb(133, 1, 1);
 }
 
-.article-button:active {
-  box-shadow: 0 0px 0px rgba(0, 112, 9, 0.6)
-
-}
 
 .header-w-button {
   display: flex;
@@ -427,3 +422,43 @@ body {
 .header-w-button h2 {
   margin: 0;
 }
+
+
+/*for making lists that are cute*/
+
+  .progress-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 600px;
+  }
+
+  .progress-list li {
+    list-style-type: none;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease;
+    font-size: 18px;
+    line-height: 1.4;
+    cursor: pointer;
+  }
+
+  .progress-list li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .progress-list li.completed {
+    background-color: #d5ffe4;
+  }
+
+
+  .red-line {
+    height: 4px;
+    background-color: #f9d6d6; 
+    border-radius: 2px;
+    max-width: 1000px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }

@@ -13,7 +13,7 @@
     <a href="whatis/" class="card-button" data-lesson-id="cad-whatis">Start Lesson</a>
   </div>
   <p class="card-description">
-    A quick article along with a few resources to understand what CAD is, and how it is useful for FRC and the engineering world.
+    A quick article that explains what CAD is, as well as how to set up an Onshape account using your Westtown email.
   </p>
 </div>
 
