@@ -16,7 +16,7 @@ nav:
     - CAD Learning: design/cad/index.md
     - Reading: design/reading/index.md
     - Videos: design/videos/index.md
-    - Mini Projects: design/mini.md
+    - Mini Projects: design/mini/index.md
   - Programming:
     - Overview: programming/index.md
     - Java Learning: programming/java.md

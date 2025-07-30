@@ -21,7 +21,7 @@
 
 
 <!-- Card 2-->
-<div class="simple-card">
+<div class="simple-card" data-lesson-id="parts">
   <div class="card-header">
     <div class="card-title-row">
       <h3 class="card-title">Parts & Process</h3>
@@ -36,13 +36,13 @@
 </div>
 
 <!-- Card 3-->
-<div class="simple-card">
+<div class="simple-card" data-lesson-id="chief">
   <div class="card-header">
     <div class="card-title-row">
       <h3 class="card-title">Chief Delphi</h3>
       <span class="card-level-badge intermediate">Intermediate</span>
     </div>
-    <a href="chiefdelphi/" class="card-button">
+    <a href="chief/" class="card-button">
       Start Lesson
     </a>
   </div>
@@ -52,10 +52,10 @@
 </div>
 
 <!-- Card 4-->
-<div class="simple-card">
+<div class="simple-card" data-lesson-id="spectrum">
   <div class="card-header">
     <div class="card-title-row">
-      <h3 class="card-title">Tech Binder Exploration</h3>
+      <h3 class="card-title">Tech Binders</h3>
       <span class="card-level-badge intermediate">Intermediate</span>
     </div>
     <a href="spectrum/" class="card-button">
